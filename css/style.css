@@ -302,7 +302,7 @@ section {
 /* --------- 2.1 Header --------- */
 
 #header {
-    height: 71px !important;
+    height: 100px !important;
     overflow: visible;
     z-index: 9999;
     width: 100%;
@@ -330,6 +330,7 @@ section {
 /* --------- 2.2 Logo ---------- */
 
 #logo {
+    max-height: 100px;
     float: left;
     height: 71px;
     line-height: 66px;
@@ -344,7 +345,7 @@ section {
     font-size: 28px;
     margin-right: 10px;
     font-weight: 900;
-    padding: 0;
+    padding: 10px;
 }
 
 #logo h2 {
@@ -353,9 +354,10 @@ section {
 }
 
 #logo img {
-    max-height: 22px;
+    max-height: 100%;
     vertical-align: middle;
     margin-right: 15px;
+    padding-left: 20%;
 }
 
 #navigation-logo {
